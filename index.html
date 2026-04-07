@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altstädter Stube Willig</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background: #2c2c2c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-restaurant') center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .menu, .contact {
+            margin-top: 30px;
+        }
+        footer {
+            background: #2c2c2c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        button {
+            background: #c0392b;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Altstädter Stube Willig</h1>
+    <p>Traditionelle deutsche Küche in Hamburg</p>
+</header>
+
+<nav>
+    <a href="#about">Über uns</a>
+    <a href="#menu">Speisekarte</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="hero">
+    Herzlich Willkommen!
+</div>
+
+<div class="container">
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>
+            Die Altstädter Stube Willig steht für traditionelle deutsche Küche,
+            gemütliche Atmosphäre und herzlichen Service im Herzen von Hamburg.
+        </p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Speisekarte</h2>
+        <ul>
+            <li>Schnitzel mit Bratkartoffeln</li>
+            <li>Currywurst mit Pommes</li>
+            <li>Rinderroulade mit Rotkohl</li>
+            <li>Hausgemachte Suppen</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontakt</h2>
+        <p>📍 Altstädter Str. 17, Hamburg</p>
+        <p>📞 +49 176 97595215</p>
+        <button onclick="alert('Reservierung telefonisch möglich!')">
+            Tisch reservieren
+        </button>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Altstädter Stube Willig</p>
+</footer>
+
+</body>
+</html>
